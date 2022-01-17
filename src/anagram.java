@@ -16,6 +16,7 @@ public class anagram {
             char[] s2=Str2.toLowerCase().toCharArray();
             Arrays.sort(s1);
             Arrays.sort(s2);
+            System.out.println(s2);
             status = Arrays.equals(s1,s2);
         }
         if (status==true){
